@@ -1,0 +1,22 @@
+@import "bulma/css/bulma.min.css";
+
+/*============================================ Global =======================================*/
+
+body.light-mode {
+    --background-color: #ffffff;
+    --text-color: #363636;
+}
+
+body.dark-mode {
+    --background-color: #121212;
+    --text-color: #ffffff;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.dark-mode .navbar {
+    background-color: #1e1e1e;
+}
